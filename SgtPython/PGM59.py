@@ -1,0 +1,6 @@
+s1 = set(input("Enter first string"))
+s2 = set(input("Enter second string"))
+print("The common character",s1&s2)
+print("Letters present only in first string",s1-s2)
+print("All the charcters are",s1|s2)
+print("Letters not common",s1^s2)
